@@ -1,0 +1,14 @@
+.{
+    .name = "win32-mono-cursors",
+    .version = "0.0.0",
+    .minimum_zig_version = "0.13.0",
+    .dependencies = .{
+        .direct2d = .{
+            .url = "git+https://github.com/marler8997/direct2d-zig#0d031389a26653bb71f81c2340d1b8ba6bd339c3",
+            .hash = "122069b40656962c6ba9b9b3f9f882ba2e9cf4c5e1afebac7b7501404129e6bb4705",
+        },
+    },
+    .paths = .{
+        ".",
+    },
+}
